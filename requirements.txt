@@ -5,4 +5,4 @@ pytest-cov
 pandas
 nbval
 matplotlib
-statsmodels.api
+statsmodels
