@@ -7,8 +7,7 @@ install:
 test:
 	python -m pytest -vv --cov=myrepolib tests/*.py
 	#PYTHONPATH=. && py.test --nbval-lax notebooks/*.ipynb
-	#py.test --nbval MLAssignment.ipynb
-	py.test -v tests/ --nbval --current-env
+	py.test --nbval MLAssignment.ipynb
 build-dists:
 	rm -rf dist/
 	$(PYTHON) setup.py sdist
