@@ -4,3 +4,5 @@ jupyter
 pytest-cov
 pandas
 nbval
+matplotlib
+statsmodels.api
