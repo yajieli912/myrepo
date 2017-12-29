@@ -14,3 +14,4 @@ lint:
 	pylint --disable=R,C myrepolib
 
 all: install lint test
+     pip install matplotlib sympy
